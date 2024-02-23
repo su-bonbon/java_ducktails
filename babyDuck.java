@@ -3,10 +3,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class babyDuck here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Sujin Lee
+ * @1.0.0
  */
-public class babyDuck extends Duck
+public class BabyDuck extends Duck
 {
     /**
      * Act - do whatever the babyDuck wants to do. This method is called whenever
@@ -14,6 +14,8 @@ public class babyDuck extends Duck
      */
     public void act()
     {
-        // Add your action code here.
+        super.act();
+        move(20);
+        turn(Greenfoot.getRandomNumber(10));
     }
 }
