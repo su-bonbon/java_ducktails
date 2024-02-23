@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class Grass here.
  * 
- * @Sujin Lee
- * @1.0.0
+ * @author (your name) 
+ * @version (a version number or a date)
  */
 public class Grass extends MyWorld
 {
