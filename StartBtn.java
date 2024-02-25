@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class StartBtn here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Sujin Lee
+ * @1.0.1
  */
 public class StartBtn extends Btn
 {
@@ -15,5 +15,8 @@ public class StartBtn extends Btn
     public void act()
     {
         // Add your action code here.
+        if (Greenfoot.mouseClicked(this)) {
+            Greenfoot.setWorld(new PlayGame());
+    }
     }
 }

@@ -23,6 +23,7 @@ public class MomDuck extends Duck
         if(isTouching(BabyDuck.class)) {
             //removeTouching(BabyDuck.class);
             Greenfoot.playSound("catch.mp4");
+            removeTouching(BabyDuck.class);
             score++;
             
         } else if(isAtEdge()) {

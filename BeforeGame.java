@@ -15,7 +15,7 @@ public class BeforeGame extends MyWorld
      */
     public BeforeGame()
     {
-        StartBtn startBtn = new StartBtn();
+       StartBtn startBtn = new StartBtn();
         HelpBtn helpBtn = new HelpBtn();
         addObject(startBtn, 200, 325);
         addObject(helpBtn, 400, 325);

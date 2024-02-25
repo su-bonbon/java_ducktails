@@ -19,7 +19,7 @@ public class PlayGame extends MyWorld
         addObject(mom, 300, 200);
         BabyDuck[] arrBabyDuck = new BabyDuck[3];
         for(int i = 0; i < 3; i++) {
-            arrBabyDuck[i] = new BabyDuck(mom);
+            arrBabyDuck[i] = new BabyDuck();
             addObject(arrBabyDuck[i], Greenfoot.getRandomNumber(600), Greenfoot.getRandomNumber(400));
         }
     }
