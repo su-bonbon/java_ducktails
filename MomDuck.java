@@ -21,15 +21,15 @@ public class MomDuck extends Duck
         getWorld().showText("Score: " + score, 50, 20);
     
         if(isTouching(BabyDuck.class)) {
-            //removeTouching(BabyDuck.class);
-            Greenfoot.playSound("catch.mp4");
             removeTouching(BabyDuck.class);
+            Greenfoot.playSound("catch.mp4");
             score++;
+            addBaby();
             
         } else if(isAtEdge()) {
             PlayGame world = (PlayGame)getWorld(); //Set location of function.
             world.gameOver();//Call gameOver function.
-            Greenfoot.stop();
+            //Greenfoot.stop();
         }
     }
     
@@ -44,6 +44,13 @@ public class MomDuck extends Duck
         if(Greenfoot.isKeyDown("down"))
             setRotation(90);
             
+    }
+    
+    public void addBaby() {
+        BabyDuck dup = new BabyDuck();
+        
+        World world = getWorld();
+        world.addObject(dup, Greenfoot.getRandomNumber(600), Greenfoot.getRandomNumber(400));
     }
   
     

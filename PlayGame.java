@@ -13,8 +13,10 @@ public class PlayGame extends MyWorld
      * Constructor for objects of class Grass.
      * 
      */
+    private GreenfootSound bgm;
     public PlayGame()
     {
+        bgm = new GreenfootSound("bgm.mp3");
         MomDuck mom = new MomDuck();
         addObject(mom, 300, 200);
         BabyDuck[] arrBabyDuck = new BabyDuck[3];
