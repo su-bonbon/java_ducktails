@@ -13,31 +13,38 @@ public class MomDuck extends Duck
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     private int score;
+    private int speed = 3;
     
     public void act()
     {
         eventListner();
         getWorld().showText("Score: " + score, 50, 20);
-        
+    
         if(isTouching(BabyDuck.class)) {
             //removeTouching(BabyDuck.class);
             Greenfoot.playSound("catch.mp4");
             score++;
             
+        } else if(isAtEdge()) {
+            PlayGame world = (PlayGame)getWorld(); //Set location of function.
+            world.gameOver();//Call gameOver function.
+            Greenfoot.stop();
         }
     }
     
     private void eventListner() {
-        MouseInfo mouseInfo = Greenfoot.getMouseInfo();
-        if (mouseInfo != null) {
-            // Get the current location of the mouse cursor
-            int mouseX = mouseInfo.getX();
-            int mouseY = mouseInfo.getY();
+        move(speed);
+        if(Greenfoot.isKeyDown("right"))
+            setRotation(0);
+        if(Greenfoot.isKeyDown("left"))
+            setRotation(180);
+        if(Greenfoot.isKeyDown("up"))
+            setRotation(270);
+        if(Greenfoot.isKeyDown("down"))
+            setRotation(90);
             
-            // Update the location of the actor to follow the mouse
-            setLocation(mouseX, mouseY);
-        } 
     }
   
+    
     
 }
