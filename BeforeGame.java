@@ -8,15 +8,15 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class BeforeGame extends MyWorld
 {
-    private GreenfootSound bgm;
     /**
      * Constructor for objects of class BeforeGame.
      * 
      */
+    GreenfootSound bgm = new GreenfootSound("bgm.mp3");
     public BeforeGame()
     {
-        bgm = new GreenfootSound("bgm1.mp3");
-       StartBtn startBtn = new StartBtn();
+        //bgm.playLoop();
+        StartBtn startBtn = new StartBtn();
         HelpBtn helpBtn = new HelpBtn();
         addObject(startBtn, 200, 325);
         addObject(helpBtn, 400, 325);

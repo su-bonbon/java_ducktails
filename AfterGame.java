@@ -8,14 +8,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class AfterGame extends MyWorld
 {
-    private GreenfootSound bgm;
     /**
      * Constructor for objects of class AfterGame.
      * 
      */
+    //GreenfootSound bgm = new GreenfootSound("bgm1.mp3");
     public AfterGame()
     {
-        bgm = new GreenfootSound("bgm1.mp3");
+        //bgm.play();
         GreenfootImage bg = new GreenfootImage("gameover.png");
         bg.scale(600, 400);
         setBackground(bg);

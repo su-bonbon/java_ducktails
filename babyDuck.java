@@ -1,28 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class babyDuck here.
+ * Write a description of class BabyDuck here.
  * 
  * @Sujin Lee
- * @1.0.1
+ * @1.0.4
  */
 public class BabyDuck extends Duck
 {
     /**
-     * Act - do whatever the babyDuck wants to do. This method is called whenever
+     * Act - do whatever the BabyDuck wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
     {
-        
+        // Add your action code here.
     }
-    
-    public BabyDuck() {  //constructor
-        
-    }
-    
-    
-    
-    
-    
 }

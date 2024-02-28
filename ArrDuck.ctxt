@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ArrDuck
+comment0.text=\n\ Write\ a\ description\ of\ class\ ArrDuck\ here.\n\ \n\ @Sujin\ Lee\n\ @1.0.3\n
+comment1.params=mom
+comment1.target=ArrDuck(MomDuck)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ eventListner()
+comment4.params=
+comment4.target=void\ addClone()
+comment5.params=
+comment5.target=void\ displayArr()
+numComments=6
