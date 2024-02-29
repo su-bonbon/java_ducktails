@@ -2,6 +2,8 @@
 comment0.target=BabyDuck
 comment0.text=\n\ Write\ a\ description\ of\ class\ BabyDuck\ here.\n\ \n\ @Sujin\ Lee\n\ @1.0.4\n
 comment1.params=
-comment1.target=void\ act()
+comment1.target=BabyDuck()
 comment1.text=\n\ Act\ -\ do\ whatever\ the\ BabyDuck\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-numComments=2
+comment2.params=
+comment2.target=void\ act()
+numComments=3

@@ -12,8 +12,12 @@ public class BabyDuck extends Duck
      * Act - do whatever the BabyDuck wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public BabyDuck() {
+        
+    }
+    
     public void act()
     {
-        // Add your action code here.
+        
     }
 }
