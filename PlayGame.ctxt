@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.target=PlayGame
-comment0.text=\n\ Write\ a\ description\ of\ class\ Grass\ here.\n\ \n\ @Sujin\ Lee\n\ @1.0.0\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ playGame\ here.\n\ \n\ @Sujin\ Lee\n\ @1.0.7\n
 comment1.params=
 comment1.target=PlayGame()
 comment2.params=
-comment2.target=void\ gameOver()
-numComments=3
+comment2.target=void\ addClone()
+comment3.params=
+comment3.target=void\ gameOver()
+numComments=4

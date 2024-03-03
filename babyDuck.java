@@ -1,23 +1,24 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;  
 
 /**
- * Write a description of class BabyDuck here.
+ * Write a description of class babyDuck here.
  * 
  * @Sujin Lee
- * @1.0.4
+ * @1.0.2
  */
 public class BabyDuck extends Duck
 {
-    /**
-     * Act - do whatever the BabyDuck wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public BabyDuck() {
-        
-    }
+    private int age = 0; 
+    private int lifeSpan; 
     
+    public BabyDuck(int lifeSpan){
+        this.lifeSpan = lifeSpan;
+    }
     public void act()
     {
-        
+        if(age == lifeSpan){ 
+            getWorld().removeObject(this);
+        }
+        age++; 
     }
 }

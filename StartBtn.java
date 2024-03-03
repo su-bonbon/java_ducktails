@@ -1,22 +1,17 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;  
 
 /**
  * Write a description of class StartBtn here.
  * 
  * @Sujin Lee
- * @1.0.1
+ * @1.0.9
  */
-public class StartBtn extends Btn
+public class StartBtn extends Button
 {
-    /**
-     * Act - do whatever the StartBtn wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
     public void act()
     {
-        // Add your action code here.
         if (Greenfoot.mouseClicked(this)) {
             Greenfoot.setWorld(new PlayGame());
-    }
+        }
     }
 }
