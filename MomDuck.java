@@ -8,7 +8,7 @@ import greenfoot.*;
  */
 public class MomDuck extends Duck
 {
-    private int SPEED = 7; 
+    private int speed = 7; 
     private int counter = 0; 
     private int speedDivision = 0;
     private int score = 0; 
@@ -35,7 +35,7 @@ public class MomDuck extends Duck
         
         if(speedDivision == 5) {
             speedDivision = 0;
-            SPEED = SPEED - 1;
+            speed = speed - 1;
         }
 
         
@@ -66,8 +66,8 @@ public class MomDuck extends Duck
     {
         counter ++; 
         
-        if(counter==SPEED) {
-            getWorld().addObject(new BabyDuck(score*SPEED), getX(), getY()); //Add a tail to the world in position of snakehead.
+        if(counter==speed) {
+            getWorld().addObject(new BabyDuck(score*speed), getX(), getY()); //Add a tail to the world in position of snakehead.
             move(1);
             counter = 0;
         } 

@@ -2,5 +2,7 @@
 comment0.target=StartBtn
 comment0.text=\n\ Write\ a\ description\ of\ class\ StartBtn\ here.\n\ \n\ @Sujin\ Lee\n\ @1.0.9\n
 comment1.params=
-comment1.target=void\ act()
-numComments=2
+comment1.target=StartBtn()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

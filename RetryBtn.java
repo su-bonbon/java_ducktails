@@ -8,6 +8,9 @@ import greenfoot.*;
  */
 public class RetryBtn extends Button
 {
+    public RetryBtn() {
+        
+    }
     public void act()
     {
         if (Greenfoot.mouseClicked(this)) {

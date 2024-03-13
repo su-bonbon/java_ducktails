@@ -8,6 +8,9 @@ import greenfoot.*;
  */
 public class StartBtn extends Button
 {
+    public StartBtn() {
+        
+    }
     public void act()
     {
         if (Greenfoot.mouseClicked(this)) {

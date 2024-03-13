@@ -8,13 +8,12 @@ import greenfoot.*;
  */
 public class HelpGame extends World
 {
-    
+    RetryBtn retryBtn = new RetryBtn();
+    StartBtn startBtn = new StartBtn();
     public HelpGame()
     {
         super(30, 20, 20);
-        
-        RetryBtn retryBtn = new RetryBtn();
-        StartBtn startBtn = new StartBtn();
+    
         addObject(retryBtn, 10, 16);
         addObject(startBtn, 18, 16);
     }
